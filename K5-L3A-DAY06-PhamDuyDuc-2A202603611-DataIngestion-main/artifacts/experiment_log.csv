@@ -1,4 +1,4 @@
 strategy,chunking,chunk_size,overlap,metadata,filter,vectorizer,hypothesis,dev_hit1,dev_hit3,test_hit1,test_hit3,notes
-A,,,,,,,,,,,,
-B,,,,,,,,,,,,
-C,,,,,,,,,,,,
+A,fixed_size,500,50,"document_id/source/page + manifest metadata",none,OpenRouter:nvidia/nemotron-3.5-embed-1b:free,"Baseline: fixed windows may split evidence across boundaries",4/15,5/15,,,Final current dev split measured; test metrics intentionally blank because final test was not run. Prior exploratory run is preserved in starter/results.
+B,paragraph_aware,1000,0,"document_id/source/page + manifest metadata",none,OpenRouter:nvidia/nemotron-3.5-embed-1b:free,"Paragraph-aware chunks may preserve local context better than A",2/15,7/15,,,Final current dev split measured; test metrics intentionally blank because final test was not run. Prior exploratory run is preserved in starter/results.
+C,paragraph_aware,1000,0,"document_id/source/page + manifest metadata",question-provided metadata filter,OpenRouter:nvidia/nemotron-3.5-embed-1b:free,"Filtering may improve scope compliance; B-C isolates filter effect",2/15,7/15,,,Final current dev split measured; test metrics intentionally blank because final test was not run. Prior exploratory run is preserved in starter/results.
