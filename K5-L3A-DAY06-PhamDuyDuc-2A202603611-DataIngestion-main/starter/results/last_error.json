@@ -1,0 +1,10 @@
+{
+  "run_started_utc": "2026-11-14T04:19:31.801215+00:00",
+  "benchmark_sha256": "2a5e8cbc17c9bd6be4677c726f701c459eed36e89cb36d74f0d9c3f97847f42c",
+  "model": "nvidia/nemotron-3.5-embed-1b:free",
+  "stage": "embed_documents_A",
+  "strategy": "A",
+  "elapsed_seconds": 1.547006999999212,
+  "error_type": "RuntimeError",
+  "error": "OpenRouter embedding request failed (429): {\"error\":{\"message\":\"Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day: https://openrouter.ai/settings/credits?utm_source=api&utm_campaign=free_daily_limit\",\"code\":429,\"metadata\":{\"headers\":{\"X-RateLimit-Limit\":\"50\",\"X-RateLimit-Remaining\":\"0\",\"X-RateLimit-Reset\":\"1794700800000\"},\"limit_source\":\"openrouter_free_tier_daily\",\"remedy_hint\":\"Wait for the daily reset (see X-RateLimit-Reset), or purchase credits to raise your free-model daily limit.\"}}}"
+}

@@ -1,0 +1,46 @@
+audit_type,id,strategy,score,reason,reviewer
+coherence,chapter-01-unit-01@1254,A,1,Fixed chunk starts mid-word and clips preceding context; main narrative remains partly understandable.,AI-assisted draft; student confirmation pending
+coherence,chapter-01-unit-01@1254,B,2,Paragraph chunk preserves the connected paragraph and context.,AI-assisted draft; student confirmation pending
+coherence,chapter-01-unit-01@1254,C,2,Paragraph chunk preserves the connected paragraph and context.,AI-assisted draft; student confirmation pending
+coherence,chapter-02-unit-03@1484,A,1,"Chunk starts within the gang oath, so its subject and setup are missing.",AI-assisted draft; student confirmation pending
+coherence,chapter-02-unit-03@1484,B,2,Chunk includes the oath and connected consequences in one passage.,AI-assisted draft; student confirmation pending
+coherence,chapter-02-unit-03@1484,C,2,Chunk includes the oath and connected consequences in one passage.,AI-assisted draft; student confirmation pending
+coherence,chapter-04-unit-01@1473,A,1,Chunk begins inside dialogue; the following luck explanation is understandable but context is clipped.,AI-assisted draft; student confirmation pending
+coherence,chapter-04-unit-01@1473,B,2,Chunk includes the salt-cellar incident and Huck?s response.,AI-assisted draft; student confirmation pending
+coherence,chapter-04-unit-01@1473,C,2,Chunk includes the salt-cellar incident and Huck?s response.,AI-assisted draft; student confirmation pending
+coherence,chapter-06-unit-01@1361,A,1,Overlap chunk starts in a clipped clause; subject context is limited.,AI-assisted draft; student confirmation pending
+coherence,chapter-06-unit-01@1361,B,1,"Chunk preserves the cabin episode, but the pronoun subject depends on earlier context.",AI-assisted draft; student confirmation pending
+coherence,chapter-06-unit-01@1361,C,1,"Chunk preserves the cabin episode, but the pronoun subject depends on earlier context.",AI-assisted draft; student confirmation pending
+coherence,chapter-07-unit-01@1393,A,1,Overlap chunk starts mid-description; the canoe sequence is mostly understandable.,AI-assisted draft; student confirmation pending
+coherence,chapter-07-unit-01@1393,B,2,Chunk includes the canoe discovery and connected actions.,AI-assisted draft; student confirmation pending
+coherence,chapter-07-unit-01@1393,C,2,Chunk includes the canoe discovery and connected actions.,AI-assisted draft; student confirmation pending
+coherence,chapter-08-unit-01@1463,A,1,Chunk starts mid-sentence; the bread-search idea is still partly clear.,AI-assisted draft; student confirmation pending
+coherence,chapter-08-unit-01@1463,B,2,Chunk preserves the bread-search explanation and outcome.,AI-assisted draft; student confirmation pending
+coherence,chapter-08-unit-01@1463,C,2,Chunk preserves the bread-search explanation and outcome.,AI-assisted draft; student confirmation pending
+coherence,chapter-08-unit-06@1475,A,1,"Chunk begins mid-thought, though the raft/no-tracks reasoning is present.",AI-assisted draft; student confirmation pending
+coherence,chapter-08-unit-06@1475,B,2,Chunk preserves Jim?s full explanation of why he chose a raft.,AI-assisted draft; student confirmation pending
+coherence,chapter-08-unit-06@1475,C,2,Chunk preserves Jim?s full explanation of why he chose a raft.,AI-assisted draft; student confirmation pending
+coherence,chapter-09-unit-03@1211,A,1,Chunk starts with a clipped fragment before the inventory; most of the list remains readable.,AI-assisted draft; student confirmation pending
+coherence,chapter-09-unit-03@1211,B,2,Chunk presents the inventory as a connected list.,AI-assisted draft; student confirmation pending
+coherence,chapter-09-unit-03@1211,C,2,Chunk presents the inventory as a connected list.,AI-assisted draft; student confirmation pending
+coherence,chapter-11-unit-02@1353,A,1,"Chunk starts mid-clause, with missing lead-in to the discussion of Pap.",AI-assisted draft; student confirmation pending
+coherence,chapter-11-unit-02@1353,B,1,"Chunk also starts mid-clause, so the passage lacks its opening context.",AI-assisted draft; student confirmation pending
+coherence,chapter-11-unit-02@1353,C,1,"Chunk also starts mid-clause, so the passage lacks its opening context.",AI-assisted draft; student confirmation pending
+coherence,chapter-12-unit-01@1047,A,1,Chunk begins mid-sentence; the raft-covering detail is understandable in part.,AI-assisted draft; student confirmation pending
+coherence,chapter-12-unit-01@1047,B,2,Chunk includes the full branch-covering action and its purpose.,AI-assisted draft; student confirmation pending
+coherence,chapter-12-unit-01@1047,C,2,Chunk includes the full branch-covering action and its purpose.,AI-assisted draft; student confirmation pending
+grounding,q16,A,2,Top-3 includes Jim?s statement that he arrived the night after Huck was reported killed.,AI-assisted draft; student confirmation pending
+grounding,q16,B,2,Top-3 includes Jim?s statement that he arrived the night after Huck was reported killed.,AI-assisted draft; student confirmation pending
+grounding,q16,C,2,Top-3 includes Jim?s statement that he arrived the night after Huck was reported killed.,AI-assisted draft; student confirmation pending
+grounding,q17,A,2,Top-3 includes both island dimensions.,AI-assisted draft; student confirmation pending
+grounding,q17,B,2,Top-3 includes both island dimensions.,AI-assisted draft; student confirmation pending
+grounding,q17,C,2,Top-3 includes both island dimensions.,AI-assisted draft; student confirmation pending
+grounding,q18,A,2,Top-3 includes Jim?s bad-luck and haunting rationale.,AI-assisted draft; student confirmation pending
+grounding,q18,B,2,Top-3 includes Jim?s bad-luck and haunting rationale.,AI-assisted draft; student confirmation pending
+grounding,q18,C,2,Top-3 includes Jim?s bad-luck and haunting rationale.,AI-assisted draft; student confirmation pending
+grounding,q19,A,0,Top-3 misses the name Sarah Williams and the disguise conversation.,AI-assisted draft; student confirmation pending
+grounding,q19,B,0,Top-3 misses the name Sarah Williams and the disguise conversation.,AI-assisted draft; student confirmation pending
+grounding,q19,C,0,Top-3 misses the name Sarah Williams and the disguise conversation.,AI-assisted draft; student confirmation pending
+grounding,q20,A,2,Top-3 includes the wigwam and raised floor details.,AI-assisted draft; student confirmation pending
+grounding,q20,B,2,Top-3 includes the wigwam and raised floor details.,AI-assisted draft; student confirmation pending
+grounding,q20,C,2,Top-3 includes the wigwam and raised floor details.,AI-assisted draft; student confirmation pending
