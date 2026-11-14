@@ -18,6 +18,10 @@ Tự xây **ít nhất 20 câu** từ corpus, chia trước tối thiểu **15 d
 
 Mỗi câu ghi: `id`, `split`, `question`, `expected_answer`, `gold_source_id`, `gold_page`, `evidence_quote` và `filter` nếu dùng. Có thể thêm nhãn loại câu để phân tích lỗi. `gold_page` là số trang PDF hoặc ID đơn vị truy vết tương đương.
 
+Nên ghi `question_type` (`direct`, `paraphrase`, `condition`, `exception`) và `topic_chapter`/chủ đề để kiểm tra độ phủ và rò rỉ giữa split. Khi có nhiều vị trí evidence hợp lệ, ghi tất cả trong `accepted_evidence` (mỗi mục gồm source, page/unit và quote). Một hit tại bất kỳ mục gold hợp lệ nào được tính đúng; không bắt buộc đúng một trang duy nhất.
+
 Trước khi chạy, kiểm chứng evidence tồn tại ở nguồn và đủ hỗ trợ đáp án, kể cả điều kiện/ngoại lệ. Nếu nhiều nguồn hoặc trang hợp lệ, ghi tất cả và chấp nhận một trong số đó. Không đưa đáp án hoặc gold source vào query/filter; giá trị filter phải được người dùng hoặc ngữ cảnh cung cấp **trước khi truy xuất**. Với câu không có filter, cấu hình C chạy không filter cho câu đó và ghi rõ. Không dùng câu không có đáp án trong nguồn cho chỉ số bắt buộc.
 
 Filter cần dựa vào metadata đáng tin, ví dụ `year`, `section`, `category`, `audience`, `language` hoặc `version`. Chọn corpus có ít nhất hai phạm vi phân biệt được; không tạo giá trị giả để filter đạt điểm. Xem [data/format-example.json](data/format-example.json) để tham khảo cấu trúc, không phải benchmark hoàn chỉnh.
+
+Khi có thể, chia dev/test theo tài liệu hoặc chủ đề để giảm rò rỉ nội dung; ghi rõ mọi lần đã xem kết quả trên cùng corpus/chủ đề. Sau lần chạy đầu, giữ nguyên file test và nhãn. Nếu cần sửa lỗi, lưu phiên bản cũ và tạo benchmark version mới; kết quả của phiên bản đã sửa được xem là exploratory.

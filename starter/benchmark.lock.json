@@ -1,0 +1,51 @@
+{
+    "benchmark_file":  "benchmark.json",
+    "sha256":  "2a5e8cbc17c9bd6be4677c726f701c459eed36e89cb36d74f0d9c3f97847f42c",
+    "locked_at_utc":  "2026-11-14T03:48:15.915435+00:00",
+    "question_count":  23,
+    "split_counts":  {
+                         "dev":  18,
+                         "test":  5
+                     },
+    "filtered_counts":  {
+                            "dev":  4,
+                            "test":  5
+                        },
+    "question_types":  {
+                           "direct":  9,
+                           "exception":  1,
+                           "paraphrase":  8,
+                           "condition":  5
+                       },
+    "chapter_groups":  {
+                           "dev":  [
+                                       "I",
+                                       "V",
+                                       "II",
+                                       "IV",
+                                       "VI",
+                                       "III",
+                                       "VII",
+                                       "VIII"
+                                   ],
+                           "test":  [
+                                        "X",
+                                        "IX",
+                                        "XI",
+                                        "XII"
+                                    ]
+                       },
+    "dev_test_chapter_overlap":  [
+
+                                 ],
+    "test_question_ids":  [
+                              "q19",
+                              "q20",
+                              "q21",
+                              "q22",
+                              "q23"
+                          ],
+    "independence_status":  "topic_grouped_unrun_test_with_prior_exploratory_leakage_risk; current test rows have not been run",
+    "risk_note":  "Dev/test questions are grouped by disjoint chapters, but earlier exploratory test results from chapters VIII-XII were inspected. Do not describe the new test as an independent holdout. Keep this lock and benchmark unchanged after the first run; later corrections require a new benchmark version and exploratory labeling.",
+    "locked_before_first_run":  true
+}
